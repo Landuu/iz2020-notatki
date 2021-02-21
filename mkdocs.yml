@@ -1,2 +1,3 @@
 site_name: IZ2020 - notatki
+site_dir: dist/
 theme: windmill
