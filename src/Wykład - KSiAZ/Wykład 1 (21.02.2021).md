@@ -15,7 +15,7 @@ Do zasobów tych w szczególności należą:
 - czas
 - zatrudnieni pracownicy
 
-#### Proces pozyskiwania pracowników
+### Proces pozyskiwania pracowników
 
 - określenie potrzeb personalnych, tj. liczby potrzebnych pracowników, profili kwalifikacyjnych oraz czasu, w którym wakaty powinny być objęte,
 - zidentyfikowanie źródeł pozyskania pracowników,
@@ -25,7 +25,7 @@ Do zasobów tych w szczególności należą:
 - przedstawienie oferty pracy i podpisanie umowy,
 - wprowadzenie do pracy.
 
-#### Procedura doboru kadr
+### Procedura doboru kadr
 ![Imgur](https://i.imgur.com/nsQwIBC.png)
 
 ----------
@@ -46,20 +46,20 @@ Wewnętrzna rekrutacja pracowników może mieć charakter otwarty lub zamknięty
 - W ramach rekrutacji otwartej informacje o wolnych stanowiskach pracy udostępnione są szerokim rzeszom pracowników w formie ogłoszeń.
 - Rekrutacja zamknięta ma miejsce wówczas, gdy informacje o wolnym stanowisku nie są podawane do publicznej wiadomości.
 
-#### Zalety otwartej i zamkniętej rekrutacji wewnętrznej
+### Zalety otwartej i zamkniętej rekrutacji wewnętrznej
 ![Imgur](https://i.imgur.com/71NFsaN.png)
 
-#### Pozyskiwanie pracowników z zewnętrznego rynku pracy
+### Pozyskiwanie pracowników z zewnętrznego rynku pracy
 Pozyskiwanie pracowników z zewnętrznego rynku pracy oznacza kierowanie oferty pracy do wszystkich chętnych spoza danej organizacji. Korzyścią tego rozwiązana jest to, że do firmy mogą się zgłosić nowi, kompetentni kandydaci do pracy.
 
-#### Struktura procesu rekrutacji
+### Struktura procesu rekrutacji
 ![Imgur](https://i.imgur.com/vmv0Ry3.png)
 
-#### Techniki rekrutacji pracowników
+### Techniki rekrutacji pracowników
 
 Za pomocą technik rekrutacji podejmuje się działania zmierzające do efektywnego przekazania informacji na rynek pracy o wolnym stanowisku pracy.
 
-#### Przykładowe techniki rekrutacji pracowników
+### Przykładowe techniki rekrutacji pracowników
 
 - anons prasowy,
 - ogłoszenie radiowe czy telewizyjne,
@@ -70,7 +70,7 @@ Za pomocą technik rekrutacji podejmuje się działania zmierzające do efektywn
 - ulotki,
 - firmy konsultingowe.
 
-#### Źródła rekrutacji pracowników - kanały tradycyjne
+### Źródła rekrutacji pracowników - kanały tradycyjne
 
 - współpraca z uczelniami,
 - programy praktyk,
@@ -86,7 +86,7 @@ Za pomocą technik rekrutacji podejmuje się działania zmierzające do efektywn
 - akcje społeczne,
 - wydarzenia firmowe.
 
-#### Źródła rekrutacji pracowników - kanały online
+### Źródła rekrutacji pracowników - kanały online
 
 - strona www firmy,
 - portale rekrutacyjne,
@@ -98,7 +98,7 @@ Za pomocą technik rekrutacji podejmuje się działania zmierzające do efektywn
 - telewizja internetowa,
 - wirtualne targi pracy.
 
-#### Przykładowe klasyfikacje rekrutacji
+### Przykładowe klasyfikacje rekrutacji
 
 Podział rekrutacji ze względu na stopień zaangażowania pracodawcy w poszukiwaniu pracowników:
 
@@ -119,7 +119,7 @@ Podział ze względu na obszar poszukiwania pracowników, wyróżnia się:
 - **Rekrutację zewnętrzną** - kandydatów szuka się poza organizacją. Dzięki niej można pozyskać pracowników o wysokich i oryginalnych kwalifikacjach, którzy są źródłem nowych pomysłów, jednak wadami tej formy są duże koszty, zwiększone ryzyko podjęcia błędnej decyzji (brak znajomości kandydata), ryzyko wypływu informacji o firmie.
 
 
-#### Etapy procesu rekrutacji
+### Etapy procesu rekrutacji
 
 - **Definiowanie stanowiska** - nazwa, cel, zakres obowiązków, kluczowe zadania.
 - **Charakterystyka kandydata** – wymagane wykształcanie, kompetencje, cechy osobowości.
@@ -147,7 +147,7 @@ W zależności od potrzeb opis zawiera także:
 - powiązania z innymi działami (stanowiskami),
 - powiązania zewnętrzne.
 
-#### Charakterystyka kandydata
+### Charakterystyka kandydata
 
 Bierze się pod uwagę przede wszystkim następujące elementy:
 
@@ -156,11 +156,11 @@ Bierze się pod uwagę przede wszystkim następujące elementy:
 - **zdolności** – umiejętności ogólne i zawodowe,
 - **uzdolnienia** – np. umiejętności komunikowania się i zdolności interpersonalne, umiejętność rozwiązywania problemów, inicjatywa i samodzielność w pracy, preferencje do pracy indywidualnej i / lub zespołowej.
 
-#### Określenie kryteriów selekcji
+### Określenie kryteriów selekcji
 
 Ocena osób ubiegających się o pracę to jeden z kluczowych momentów procesu rekrutacji, niezbędne jest więc przygotowanie listy obiektywnych kryteriów na podstawie których weryfikowani będą kandydaci. Listy te tworzone są na podstawie opisu stanowiska i wymaganych cech osobowych.
 
-#### Planowanie procesu rekrutacji i selekcji
+### Planowanie procesu rekrutacji i selekcji
 
 Na tym etapie pracodawca ustala, jakie i w jakiej formie powinni składać swoje dokumenty aplikacyjne kandydaci.
 
@@ -175,7 +175,7 @@ Najpowszechniejszą drogą dostarczania dokumentów aplikacyjnych jest:
 - za pośrednictwem poczty elektronicznej,
 - są firmy, które zamiast standardowego CV, preferują wypełnianie specjalnie przygotowanych na ich potrzeby formularzy aplikacyjnych na własnych stronach internetowych.
 
-#### Ogłoszenia o wolnym wakacie
+### Ogłoszenia o wolnym wakacie
 
 Celem ogłoszenia jest powiadomienie wszystkich „odpowiednich” kandydatów o wolnym wakacie, dlatego też często zdarza się tak, że już sama jego forma ma zadanie selekcyjne.
 
@@ -227,7 +227,7 @@ sposób kandydat ma dostarczyć swoje
 dokumenty aplikacyjne;
 - termin nadsyłania aplikacji.
 
-#### Wybór pracownika - metody i techniki selekcji kandydatów
+### Wybór pracownika - metody i techniki selekcji kandydatów
 
 1. analiza życiorysu i ankiet biograficznych,
 2. rozmowa kwalifikacyjna,
@@ -249,7 +249,7 @@ przyciągnąć uwagę czytającego i pokazać,
 dlaczego jego autor zasługuje na zaproszenie
 na rozmowę kwalifikacyjną.
 
-#### Zalecenia ogólne
+### Zalecenia ogólne
 
 - Przemyśl sposób, w jaki przedstawisz
 informacje w swoim CV
@@ -315,7 +315,7 @@ CV, aby usunąć ewentualne błędy i mieć
 pewność, że jest ono napisane w zrozumiały i
 logiczny sposób.
 
-#### Jak napisać europejskie CV?
+### Jak napisać europejskie CV?
 
 Wypełnij wzór CV w Internecie lub pobierz go
 ze strony internetowej ([http://europass.cedefop.europa.eu](http://europass.cedefop.europa.eu)).
