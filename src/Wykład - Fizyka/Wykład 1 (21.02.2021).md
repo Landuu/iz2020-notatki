@@ -1,6 +1,3 @@
-# Wykład I (21.02.2021) 
-
-<br>
 
 ## Jednostki miar używane w fizyce
 ![Imgur](https://i.imgur.com/xlj5dXX.png)
