@@ -2,7 +2,4 @@
 
 <br><br>
 
-![imgur](https://i.imgur.com/L9Sxb8K.gif)
-![imgur](https://i.imgur.com/L9Sxb8K.gif)
-![imgur](https://i.imgur.com/L9Sxb8K.gif)
-![imgur](https://i.imgur.com/L9Sxb8K.gif)
+![peepog](https://cdn.frankerfacez.com/emoticon/464328/4)
