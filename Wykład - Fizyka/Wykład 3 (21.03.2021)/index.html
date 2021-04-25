@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Wykład 3 (21.03.2021) - IZ2020 - notatki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Pole magnetyczne", url: "#_top", children: [
+          ]},
+          {title: "Obraz graficzny pola magnetycznego", url: "#obraz-graficzny-pola-magnetycznego", children: [
+          ]},
+          {title: "Regu\u0142a \u015bruby prawoskr\u0119tnej i regu\u0142a prawej d\u0142oni", url: "#regua-sruby-prawoskretnej-i-regua-prawej-doni", children: [
+          ]},
+          {title: "Indukcja magnetyczna", url: "#indukcja-magnetyczna", children: [
+          ]},
+          {title: "Indukcja magnetyczna - wz\u00f3r", url: "#indukcja-magnetyczna-wzor", children: [
+          ]},
+          {title: "Regu\u0142a lewej d\u0142oni", url: "#regua-lewej-doni", children: [
+          ]},
+          {title: "Strumie\u0144 magnetyczny", url: "#strumien-magnetyczny", children: [
+          ]},
+          {title: "Prawo Biota-Savarta", url: "#prawo-biota-savarta", children: [
+          ]},
+          {title: "Nat\u0119\u017cenie pola magnetycznego", url: "#natezenie-pola-magnetycznego", children: [
+          ]},
+          {title: "Nat\u0119\u017cenie pola magnetycznego c. d.", url: "#natezenie-pola-magnetycznego-c-d", children: [
+          ]},
+          {title: "Prawo przep\u0142ywu", url: "#prawo-przepywu", children: [
+          ]},
+          {title: "Prawo przep\u0142ywu w cewce toroidalnej", url: "#prawo-przepywu-w-cewce-toroidalnej", children: [
+          ]},
+          {title: "Prawo przep\u0142ywu na przyk\u0142adzie przewodu prostoliniowego niesko\u0144czenie d\u0142ugiego.", url: "#prawo-przepywu-na-przykadzie-przewodu-prostoliniowego-nieskonczenie-dugiego", children: [
+          ]},
+          {title: "W\u0142asno\u015bci magnetyczne materii", url: "#wasnosci-magnetyczne-materii", children: [
+          ]},
+          {title: "W\u0142asno\u015bci magnetyczne materii", url: "#wasnosci-magnetyczne-materii_1", children: [
+          ]},
+          {title: "Magnesowanie materia\u0142\u00f3w ferromagnetycznych", url: "#magnesowanie-materiaow-ferromagnetycznych", children: [
+          ]},
+          {title: "Histereza magnetyczna", url: "#histereza-magnetyczna", children: [
+          ]},
+          {title: "Materia\u0142y magnetycznie mi\u0119kkie i twarde", url: "#materiay-magnetycznie-miekkie-i-twarde", children: [
+          ]},
+          {title: "Zjawisko indukcji elektromagnetycznej", url: "#zjawisko-indukcji-elektromagnetycznej", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Wyk%C5%82ad%204%20%2811.04.2021%29/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Wyk%C5%82ad%204%20%2811.04.2021%29/" class="btn btn-xs btn-link">
+        Wykład 4 (11.04.2021)
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../Wyk%C5%82ad%202%20%2807.03.2021%29/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../Wyk%C5%82ad%202%20%2807.03.2021%29/" class="btn btn-xs btn-link">
+        Wykład 2 (07.03.2021)
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h2 id="pole-magnetyczne">Pole magnetyczne</h2>
+<p>Pole magnetyczne jest to stan przestrzeni, w której siły działają na poruszające się ładunki elektryczne a także na ciała mające moment magnetyczny niezależnie od ich ruchu.</p>
+<p>Źródłami pola magnetycznego są magnesy oraz przepływający prąd. Magnesy dzielimy na:</p>
+<ul>
+<li>naturalne - ruda żelaza zwana magnetytem (wydobywana w pobliżu miasta Magnezji w Azji Mniejszej)</li>
+<li>sztuczne - np. pręty z twardej stali potarte kilkakrotnie magnetytem</li>
+</ul>
+<p>Bieguny magnetyczne występują zawsze parami (tzn. nie jest możliwe oddzielenie bieguna N od S). Najsilniej zdolności przyciągające obserwuje się na końcach magnesu (na biegunach).</p>
+<p><img alt="Imgur" src="https://i.imgur.com/rQwinmv.png" /></p>
+<h2 id="obraz-graficzny-pola-magnetycznego">Obraz graficzny pola magnetycznego</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/roKvUlt.png" /></p>
+<h2 id="regua-sruby-prawoskretnej-i-regua-prawej-doni">Reguła śruby prawoskrętnej i reguła prawej dłoni</h2>
+<p><strong>Reguła śruby prawoskrętnej (reguła korkociągu)</strong></p>
+<p>Jeżeli kierunek ruchu postępowego śruby prawoskrętnej jest zgodny z kierunkiem prądu płynącego przez przewód, to kierunek ruchu obrotowego śruby wskazuje kierunek linii pola magnetycznego.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/OHVAXZx.png" /></p>
+<p><strong>Reguła prawej dłoni</strong></p>
+<p>Jeżeli prawą rękę położymy na solenoidzie tak, aby cztery palce obejmowały solenoid i były zwrócone zgodnie ze zwrotem prądu, to odchylony kciuk wskazuje zwrot linii pola wewnątrz solenoidu.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/ewQUrir.png" /></p>
+<h2 id="indukcja-magnetyczna">Indukcja magnetyczna</h2>
+<p>Indukcja magnetyczna to podstawowa wielkość magnetyczna charakteryzująca stan pola magnetycznego  w danym miejscu. Określa się ją na podstawie oddziaływania pola magnetycznego na prąd elektryczny.</p>
+<p>Rozważmy prostoliniowy bardzo długi przewód (o symetrii osiowej, przy czym osią symetrii jest oś przewodu), przez który płynie prąd elektryczny. W każdym punkcie odległym o taki sam odcinek <strong>a</strong> od przewodu, indukcja <strong>B</strong> ma jednakową wartość, a wektor indukcji jest styczny  do okręgu o promieniu <strong>a</strong>, leżącego w płaszczyźnie prostopadłej do osi przewodu</p>
+<p><img alt="Imgur" src="https://i.imgur.com/O3LF5ij.png" /></p>
+<h2 id="indukcja-magnetyczna-wzor">Indukcja magnetyczna - wzór</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/UAdad0z.png" /></p>
+<p>Założenia:</p>
+<ul>
+<li>Weźmy teraz dwa przewody</li>
+<li>Przy czym odległość przewodu 1 od 2 nazwijmy <strong>a</strong></li>
+<li>Oznaczmy przez B indukcję magnetyczną wywołaną przez prąd I1 w odległości a od niego.</li>
+</ul>
+<p>Z obserwacji wynika, że:</p>
+<ul>
+<li>Indukcja B w danym miejscu jest proporcjonalna do wywołującego go prądu I1</li>
+<li>Siła F działająca na przewód 2 wskutek oddziaływania prądu w przewodzie 1 wyraża się wzorem</li>
+</ul>
+<p><img alt="Imgur" src="https://i.imgur.com/DV8l67i.png" /></p>
+<p>Przewody prostoliniowe równoległe o zgodnych zwrotach prądów przyciągają się, a o niezgodnych zwrotach prądu odpychają (w przeciwieństwie do biegunów magnetycznych jednako i różnoimiennych).</p>
+<h2 id="regua-lewej-doni">Reguła lewej dłoni</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/FMGko5w.png" /></p>
+<p>Przy wyznaczaniu kierunku siły F oddziaływania pola magnetycznego na prąd elektryczny, posługujemy się regułą lewej dłoni.</p>
+<p>Jeżeli lewą dłoń ułożymy tak, aby linie pola magnetycznego były skierowane do dłoni, a cztery palce zgodnie z prądem, to odchylony wielki palec wskaże kierunek siły F.</p>
+<p>Jeżeli kąt między wektorem indukcji B, a przewodem I nie jest prosty, lecz równy a, to wzór na siłę otrzymuje postać:</p>
+<p><img alt="Imgur" src="https://i.imgur.com/oVRDm6b.png" /></p>
+<h2 id="strumien-magnetyczny">Strumień magnetyczny</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/EupebAH.png" /></p>
+<p>W obrazach graficznych pola magnetycznego, pole to przedstawiamy za pomocą linii indukcji magnetycznej.
+Ich gęstość jest proporcjonalna do wartości indukcji B w danym miejscu pola.</p>
+<p>Często interesuje nas całkowity strumień magnetyczny objęty (np. przez jeden zwój o danym kształcie i wymiarach) Jest on proporcjonalny do sumy wszystkich linii indukcji przenikający powierzchnię ograniczoną danym zwojem.</p>
+<p>W polu magnetycznym równomiernym, strumień magnetyczny jest równy iloczynowi indukcji B i pola powierzchni S prostopadłej do linii indukcji</p>
+<p><img alt="Imgur" src="https://i.imgur.com/I4AmmhD.png" /></p>
+<h2 id="prawo-biota-savarta">Prawo Biota-Savarta</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/KvphHAT.png" /></p>
+<p>Wartość indukcji magnetycznej możemy obliczyć na podstawie prawa Biota–Savarta (1820r.).</p>
+<p><img alt="Imgur" src="https://i.imgur.com/DoAtjkA.png" /></p>
+<h2 id="natezenie-pola-magnetycznego">Natężenie pola magnetycznego</h2>
+<p>W polu magnetycznym wytworzonym przez prąd elektryczny indukcja magnetyczna w dowolnym miejscu zależy nie tylko od kształtu obwodu, liczby zwojów prądu , ale również od własności  magnetycznych środowiska , w którym to pole zostało wytworzone.</p>
+<p>Dlatego, aby określić pole magnetyczne wprowadzono jeszcze jedną wielkość pola niezależną  od własności środowiska, ale zależną od wielkości które możemy sobie samodzielnie dobierać takie jak np: kształt cewki, liczbę zwojów prąd.</p>
+<p>Wielkość tę nazywamy <strong>natężeniem pola magnetycznego</strong> i oznaczamy literą <strong>H</strong>.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/ofLmjRb.png" /></p>
+<h2 id="natezenie-pola-magnetycznego-c-d">Natężenie pola magnetycznego c. d.</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/C4Oq8HV.png" /></p>
+<p>Rozważmy bardzo długi solenoid.</p>
+<p>Badania pola magnetycznego wykazały, że indukcja magnetyczna w środku jego długości na jego osi jest proporcjonalna do liczby zwojów z, prądu <strong>I</strong> oraz odwrotnie proporcjonalna do jego długosci <strong>l</strong>.
+Dlatego  za miarę natężenia pola magnetycznego przyjęto wielkość daną wzorem:</p>
+<p><img alt="Imgur" src="https://i.imgur.com/mduYzop.png" /></p>
+<p>Średnica solenoidu nie odgrywa roli, byleby długość solenoidu była co najmniej 20 razy większa od jego średnicy. Na końcach solenoidu natężenie pola jest o połowę mniejsze. Chcąc uniknąć wpływu końców należy wykonać cewkę pierścieniową (toroidalną).</p>
+<h2 id="prawo-przepywu">Prawo przepływu</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/ud69qrV.png" /></p>
+<p>Mamy zatem cewkę pierścieniową. Na rdzeń o przekroju kołowym nawinięto uzwojenie składające się z liczby zwojów wynoszącej <strong>N</strong>. Zwoje nawinięte są jedną warstwą. Przez każdy zwój cewki płynie ten sam prąd <strong>I</strong>. Iloczyn prądu przez liczbę zwojów nazywamy przepływem prądu i oznaczamy przez <strong>Ѳ</strong></p>
+<p><img alt="Imgur" src="https://i.imgur.com/bx0GNB4.png" /></p>
+<p>W wyniku przepływu prądu w rdzeniu cewki  powstaje pole magnetyczne, którego miarą jest indukcja magnetyczna, albo natężenie pola magnetycznego. Związek pomiędzy przepływem a natężeniem pola magnetycznego określa <strong>prawo przepływu</strong>.</p>
+<p>Suma iloczynów natężenia pola magnetycznego
+i odcinków linii pola, wzdłuż których natężenie się nie zmienia, po zamkniętej drodze l, równa się przepływowi prądu obejmowanemu przez te zamkniętą drogę.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/E0LUJ46.png" /></p>
+<h2 id="prawo-przepywu-w-cewce-toroidalnej">Prawo przepływu w cewce toroidalnej</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/HV8197u.png" /></p>
+<h2 id="prawo-przepywu-na-przykadzie-przewodu-prostoliniowego-nieskonczenie-dugiego">Prawo przepływu na przykładzie przewodu prostoliniowego nieskończenie długiego.</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/fHrcINP.png" /></p>
+<h2 id="wasnosci-magnetyczne-materii">Własności magnetyczne materii</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/J6IXIs5.png" /></p>
+<h2 id="wasnosci-magnetyczne-materii_1">Własności magnetyczne materii</h2>
+<ul>
+<li>Właściwości magnetyczne materii zależą od ruchu elektronów w atomach</li>
+<li>Oprócz ruchu orbitalnego dookoła jądra elektron wykonuje ruch obrotowy dookoła własnej osi. (ruch spinowy)</li>
+<li>Ruch elektronów  wewnątrz atomu można rozpatrywać jako okrężne prądy elementarne wewnątrz atomowe</li>
+<li>Powstające w wyniku ruchu elektronów pole magnetyczne nazywamy polem prądów elementarnych (okrężnych)</li>
+<li>Przy braku pola magnetycznego zewnętrznego prądy elementarne atomów niektórych materiałów, ze względu na ruch bezładny, wytwarzają pola magnetyczne elementarne , wzajemnie się kompensujące. W rezultacie materiały takie nie wykazują na zewnątrz właściwości magnetycznych</li>
+<li>Zawsze jednak pole magnetyczne zewnętrzne powoduje dodatkową orientację magnesów elementarnych pochodzących od prądów elementarnych.</li>
+<li>Stopień magnetyzacji różnych materiałów jest różny</li>
+</ul>
+<h2 id="magnesowanie-materiaow-ferromagnetycznych">Magnesowanie materiałów ferromagnetycznych</h2>
+<p>Materiały ferromagnetyczne są często stosowane w elektrotechnice dzięki swym własnościom magnesowania się i wzmacniania zewnętrznego pola magnetycznego.</p>
+<p>W celu zbadania tych właściwości przeprowadźmy doświadczenie mające na celu otrzymanie charakterystyki magnesowania</p>
+<h2 id="histereza-magnetyczna">Histereza magnetyczna</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/kntNqE0.png" />
+<img alt="Imgur" src="https://i.imgur.com/BBvMF2L.png" /></p>
+<h2 id="materiay-magnetycznie-miekkie-i-twarde">Materiały magnetycznie miękkie i twarde</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/XKu0Zxg.png" /></p>
+<h2 id="zjawisko-indukcji-elektromagnetycznej">Zjawisko indukcji elektromagnetycznej</h2>
+<p>Zjawisko indukcji elektromagnetycznej polega na indukowaniu siły elektromotorycznej w przewodzie poruszającym się w polu magnetycznym lub w zamkniętym obwodzie obejmującym zmienny strumień magnetyczny.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/J7zVmnm.png" /></p>
+<ul>
+<li>Mamy elektromagnes</li>
+<li>W szczelinie elektromagnesu 
+umieszczamy cewkę z cienkiego drutu.</li>
+<li>Końce cewki połączone są z miliwoltomierzem.</li>
+<li>Przy przesuwaniu cewki z prędkością v1, 
+wskazówka woltomierza odchyla się w jedną stronę</li>
+<li>Przy przesuwaniu cewki z prędkością v2, 
+wskazówka woltomierza odchyla się w drugą  stronę</li>
+<li>Odchylenie wskazówki jest tym większe i większa 
+  jest prędkość ruchu cewki</li>
+<li>Gdy cewka pozostaje nieruchoma w szczelinie , 
+wskazówka miliwoltomierza
+ przyjmuje położenie spoczynkowe</li>
+</ul>
+<hr />
+<p><img alt="Imgur" src="https://i.imgur.com/M09DAM9.png" /></p>
+<ul>
+<li>Mamy cewkę bezrdzeniową , nawinięta na szkielecie rurowym i połączona z miliwoltomierzem</li>
+<li>Do cewki wkładamy dowolny biegun magnesu np. N</li>
+<li>Obserwujemy ,ze wskazówka miliwoltomierza odchyla się w jedna stronę, przy wyjmowaniu tego bieguna z pola wskazówka odchyla się w stronę przeciwną</li>
+<li>Przy wyjmowaniu i wkładaniu bieguna S odchylenia wskazówki są przeciwne niż poprzednio opisane</li>
+<li><strong>Wniosek</strong>: Indukowanie siły elektromotorycznej następuje tylko podczas ruchu magnesu</li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Wyk%C5%82ad%204%20%2811.04.2021%29/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Wyk%C5%82ad%204%20%2811.04.2021%29/" class="btn btn-xs btn-link">
+        Wykład 4 (11.04.2021)
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../Wyk%C5%82ad%202%20%2807.03.2021%29/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../Wyk%C5%82ad%202%20%2807.03.2021%29/" class="btn btn-xs btn-link">
+        Wykład 2 (07.03.2021)
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

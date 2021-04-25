@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Wykład 2 (07.03.2021) - IZ2020 - notatki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Prawo Ohma w postaci r\u00f3\u017cniczkowej", url: "#_top", children: [
+          ]},
+          {title: "Moc i energia pr\u0105du elektrycznego", url: "#moc-i-energia-pradu-elektrycznego", children: [
+          ]},
+          {title: "Prawo Kirchhoffa (I)", url: "#prawo-kirchhoffa-i", children: [
+          ]},
+          {title: "Prawo Kirchhoffa (II)", url: "#prawo-kirchhoffa-ii", children: [
+          ]},
+          {title: "\u0141\u0105czenie opornik\u00f3w", url: "#aczenie-opornikow", children: [
+              {title: "Przekszta\u0142cenie tr\u00f3jk\u0105ta rezystancji w r\u00f3wnowa\u017cn\u0105 tr\u00f3jramienn\u0105 gwiazd\u0119", url: "#przeksztacenie-trojkata-rezystancji-w-rownowazna-trojramienna-gwiazde" },
+              {title: "Przyk\u0142ad - zadanie", url: "#przykad-zadanie" },
+          ]},
+          {title: "DZIA\u0141: Pola elektryczne", url: "#dzia-pola-elektryczne", children: [
+              {title: "Pole elektryczne", url: "#pole-elektryczne" },
+              {title: "Czym r\u00f3\u017cni si\u0119 pole elektryczne od elektrostatycznego?", url: "#czym-rozni-sie-pole-elektryczne-od-elektrostatycznego" },
+              {title: "Obraz graficzny pola", url: "#obraz-graficzny-pola" },
+              {title: "Pole elektryczne - rozk\u0142ad \u0142adunk\u00f3w", url: "#pole-elektryczne-rozkad-adunkow" },
+              {title: "Wzajemne oddzia\u0142ywanie dw\u00f3ch \u0142adunk\u00f3w elektrycznych - prawo Coulomba", url: "#wzajemne-oddziaywanie-dwoch-adunkow-elektrycznych-prawo-coulomba" },
+              {title: "Przenikalno\u015b\u0107 elektryczna - wzgl\u0119dna", url: "#przenikalnosc-elektryczna-wzgledna" },
+              {title: "Nat\u0119\u017cenie pola elektrycznego", url: "#natezenie-pola-elektrycznego" },
+              {title: "Indukcja elektryczna", url: "#indukcja-elektryczna" },
+              {title: "Strumie\u0144 indukcji elektrycznej (strumie\u0144 elektryczny), twierdzenie Gaussa", url: "#strumien-indukcji-elektrycznej-strumien-elektryczny-twierdzenie-gaussa" },
+              {title: "Zastosowanie twierdzenia Gaussa do obliczania pola elektrycznego", url: "#zastosowanie-twierdzenia-gaussa-do-obliczania-pola-elektrycznego" },
+              {title: "Zjawisko indukcji elektrostatycznej", url: "#zjawisko-indukcji-elektrostatycznej" },
+              {title: "Pojemno\u015b\u0107 elektryczna - kondensatory", url: "#pojemnosc-elektryczna-kondensatory" },
+              {title: "\u0141\u0105czenie kondensator\u00f3w", url: "#aczenie-kondensatorow" },
+              {title: "\u0141\u0105czenie kondensator\u00f3w - pojemno\u015b\u0107 zast\u0119pcza", url: "#aczenie-kondensatorow-pojemnosc-zastepcza" },
+              {title: "Przyk\u0142ady - \u0142\u0105czenie kondensator\u00f3w", url: "#przykady-aczenie-kondensatorow" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Wyk%C5%82ad%203%20%2821.03.2021%29/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Wyk%C5%82ad%203%20%2821.03.2021%29/" class="btn btn-xs btn-link">
+        Wykład 3 (21.03.2021)
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../Wyk%C5%82ad%201%20%2821.02.2021%29/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../Wyk%C5%82ad%201%20%2821.02.2021%29/" class="btn btn-xs btn-link">
+        Wykład 1 (21.02.2021)
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p>///SPRAWDZIĆ///</p>
+<h2 id="prawo-ohma-w-postaci-rozniczkowej">Prawo Ohma w postaci różniczkowej</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/fD7vZSx.png" /></p>
+<h2 id="moc-i-energia-pradu-elektrycznego">Moc i energia prądu elektrycznego</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/2uzyaf8.png" /></p>
+<h2 id="prawo-kirchhoffa-i">Prawo Kirchhoffa (I)</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/rEpLqC4.png" /></p>
+<h2 id="prawo-kirchhoffa-ii">Prawo Kirchhoffa (II)</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/tM80t5L.png" />
+<img alt="Imgur" src="https://i.imgur.com/XcCKiFw.png" /></p>
+<h1 id="aczenie-opornikow">Łączenie oporników</h1>
+<p><img alt="Imgur" src="https://i.imgur.com/Ix4HJRu.png" /></p>
+<h2 id="przeksztacenie-trojkata-rezystancji-w-rownowazna-trojramienna-gwiazde">Przekształcenie trójkąta rezystancji w równoważną trójramienną gwiazdę</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/dxp8Cf9.png" />
+<img alt="Imgur" src="https://i.imgur.com/wPs8RrA.png" /></p>
+<h2 id="przykad-zadanie">Przykład - zadanie</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/h5CwS0t.png" />
+<img alt="Imgur" src="https://i.imgur.com/SQoDV8U.png" />
+<img alt="Imgur" src="https://i.imgur.com/gGwYmKI.png" />
+<img alt="Imgur" src="https://i.imgur.com/wQP6ai5.png" />
+<img alt="Imgur" src="https://i.imgur.com/WqiHJ08.png" /></p>
+<h1 id="dzia-pola-elektryczne">DZIAŁ: Pola elektryczne</h1>
+<h2 id="pole-elektryczne">Pole elektryczne</h2>
+<ul>
+<li>Pole to przestrzeń w której występuje określona wielkość fizyczna</li>
+<li>Jeśli ta wielkość fizyczna jest skalarem to pole takie nazywamy skalarnym, natomiast jeżeli jest to wektor, mówimy wtedy o polu wektorowym</li>
+<li>Zarówno pola elektryczne jak i magnetyczne to pola wektorowe</li>
+<li>W elektrotechnice często stosowany jest termin pole elektrostatyczne</li>
+</ul>
+<h2 id="czym-rozni-sie-pole-elektryczne-od-elektrostatycznego">Czym różni się pole elektryczne od elektrostatycznego?</h2>
+<ul>
+<li>Pole elektrostatyczne, jak sama nazwa wskazuje, tworzą ładunki nieruchome i niezmienne w czasie</li>
+<li>Pole elektryczne (elektryczne pole przepływowe) pochodzi natomiast od ładunków zmiennych w czasie</li>
+</ul>
+<h2 id="obraz-graficzny-pola">Obraz graficzny pola</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/9BIsoeN.png" /></p>
+<h2 id="pole-elektryczne-rozkad-adunkow">Pole elektryczne - rozkład ładunków</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/Pc6yJMc.png" /></p>
+<h2 id="wzajemne-oddziaywanie-dwoch-adunkow-elektrycznych-prawo-coulomba">Wzajemne oddziaływanie dwóch ładunków elektrycznych - prawo Coulomba</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/BW0B0fp.png" /></p>
+<h2 id="przenikalnosc-elektryczna-wzgledna">Przenikalność elektryczna - względna</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/fWysr0T.png" /></p>
+<h2 id="natezenie-pola-elektrycznego">Natężenie pola elektrycznego</h2>
+<p>Natężenie pola elektrycznego w dowolnym punkcie, w którym istnieje pole elektryczne jest wielkością wektorową, której wartość mierzyny stosunkiem siły działającej na umieszczony tym punkcie ładunek "próbny" do wartości tego ładunku.</p>
+<p><img alt="Imgur" src="https://i.imgur.com/cUKq4hf.png" /></p>
+<h2 id="indukcja-elektryczna">Indukcja elektryczna</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/ye8xNHR.png" /></p>
+<h2 id="strumien-indukcji-elektrycznej-strumien-elektryczny-twierdzenie-gaussa">Strumień indukcji elektrycznej (strumień elektryczny), twierdzenie Gaussa</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/xF2GPqk.png" /></p>
+<h2 id="zastosowanie-twierdzenia-gaussa-do-obliczania-pola-elektrycznego">Zastosowanie twierdzenia Gaussa do obliczania pola elektrycznego</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/cuEkI3E.png" /></p>
+<h2 id="zjawisko-indukcji-elektrostatycznej">Zjawisko indukcji elektrostatycznej</h2>
+<ul>
+<li>Jeżeli przewodnik umieścimy w polu elektrycznym, to pod wpływem pola, ładunki zaczną się przemieszczać i tak w jednej części przewodnika, będzie gromadził się ładunek dodatni, zaś w drugiej ujemny</li>
+<li>Zjawisko przemieszczania się elektronów swobodnych w przewodniku umieszczonym w polu elektrycznym nazywamy <strong>zjawiskiem indukcji elektrostatycznej</strong></li>
+<li>Stwierdzamy zatem że w przewodniku znajdującym się w polu elektrycznym, pole nie istnieje, a powierzchnia przewodnika staje się powierzchnią ekwipotencjalną.</li>
+</ul>
+<h2 id="pojemnosc-elektryczna-kondensatory">Pojemność elektryczna - kondensatory</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/i2JsTkm.png" /></p>
+<h2 id="aczenie-kondensatorow">Łączenie kondensatorów</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/6Mj5ZUf.png" /></p>
+<h2 id="aczenie-kondensatorow-pojemnosc-zastepcza">Łączenie kondensatorów - pojemność zastępcza</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/7vXp5Vt.png" /></p>
+<h2 id="przykady-aczenie-kondensatorow">Przykłady - łączenie kondensatorów</h2>
+<p><img alt="Imgur" src="https://i.imgur.com/Ds4XgYq.png" />
+<img alt="Imgur" src="https://i.imgur.com/S1qjVHS.png" /></p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Wyk%C5%82ad%203%20%2821.03.2021%29/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Wyk%C5%82ad%203%20%2821.03.2021%29/" class="btn btn-xs btn-link">
+        Wykład 3 (21.03.2021)
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../Wyk%C5%82ad%201%20%2821.02.2021%29/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../Wyk%C5%82ad%201%20%2821.02.2021%29/" class="btn btn-xs btn-link">
+        Wykład 1 (21.02.2021)
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
